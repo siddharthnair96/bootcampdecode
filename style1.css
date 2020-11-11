@@ -1,0 +1,131 @@
+body /* this is the background color */
+{
+	background-color: #7EC4CF	;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+h1 /* this is the main header */
+{
+		font-size: 48px;
+		color: #F4F1BB; /* This is the color for Siddharth Nair*/
+		/* font-family: 'Cedarville Cursive', cursive; */
+		font-family: 'Syne Tactile', cursive;
+}	
+h2 /* this is the about me, intersting fact and social media */
+{
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+	color: #7768AE; /* This is color combination for the header; About Me and Follow Me */
+}
+p /*the paragraph part */
+{
+	font-family: 'Open Sans', sans-serif;
+	color: #232E21; /* This is the written part color */
+}
+.card-broad /* This is for the header box of main text */
+{
+	padding: 10px;
+	background-color: #52B2CF;/*C5E7E2;*/
+	list-style: none;
+	text-align: center;
+}
+.flex-container /*this is the for the buttons */
+{
+	display: flex;
+	justify-content: center;
+}
+.flex-container > div
+{
+	margin: 10px;
+	padding: 15px;
+	font-size: 15px;
+}
+.btn-card
+{
+	display: inline;
+	color: black;
+	background-color: #F4F1BB;
+	text-decoration: none;
+	padding: 9px;
+	border-radius: 9px;
+}
+.card-rect /*All card except the header */
+{
+	width: 750px;
+	margin: 40px auto;
+	background-color: #EDF7D2;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 8px;
+	text-align: center;
+	color: black;
+	padding: 1em;
+}
+.rect-image /* image box setting */
+{
+	width: 500px;
+	margin: 40px auto;
+	background-color: #EDF7D2;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	text-align: center;
+}
+.img-rect /*image setting*/
+{
+	align-items: center;
+	box-shadow: 0px 10px 20px;
+	max-width:100%;
+	height:auto;
+}
+#int-list
+{
+	text-align: left;
+}
+.list-inline /*social media icons*/
+{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li /*display it inline*/
+{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i /*non hover color*/
+{
+	font-size: 30px;
+	color: #8E8358;
+}
+.list-inline i:hover /*hover color*/
+{
+	color: black;
+}
+.footer /* copyright part */
+{
+	color: black;
+	text-align: center;
+}
+/* This changes the functional design size of the card-rect classes on resizing the browser*/
+@media (max-width: 1080px)
+{
+	.card-rect
+	{
+		width: 500px;
+		font-size: 20px; 
+	}
+}
+@media (max-width: 720px)
+{
+	.card-rect
+	{
+		width: 400px;
+		font-size: 16px; 
+	}
+}
+@media (max-width: 480px)
+{
+	.card-rect
+	{
+		width: 300px;
+		font-size: 14px; 
+	}
+}
