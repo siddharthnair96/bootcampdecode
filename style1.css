@@ -110,7 +110,7 @@ p /*the paragraph part */
 	.card-rect
 	{
 		width: 500px;
-		font-size: 15px; 
+		font-size: 18px; 
 	}
 }
 @media (max-width: 720px)
@@ -118,7 +118,7 @@ p /*the paragraph part */
 	.card-rect
 	{
 		width: 400px;
-		font-size: 18px; 
+		font-size: 20px; 
 	}
 }
 @media (max-width: 480px)
